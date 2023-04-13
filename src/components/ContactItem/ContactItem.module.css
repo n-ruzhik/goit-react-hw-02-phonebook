@@ -1,0 +1,53 @@
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    padding: 10px 10px 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+}
+
+.personData{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.number {
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.deleteBtn {
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 70px;
+
+    color: white;
+    background: #1DA1F2;
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+.deleteBtn:hover {
+    box-shadow: none;
+}
